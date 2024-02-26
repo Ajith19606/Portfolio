@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url(./Bg-Img/blue.png);
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            right: 15px;
+            top: 5px;
+        }
+        .main{
+            box-shadow: -4px 4px 5px 0 rgb(193, 192, 192);
+            background-color: white;
+            text-align: center;
+            width: 20%;
+            position: relative;
+            left: 40%;
+            top: 5px;
+            padding-top: 13px;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 1fr;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+        #name{
+            position: relative;
+            bottom: 7px;
+            right: 65px;
+        }
+        #mail{
+            position: relative;
+            bottom: 13px;
+            left: 5px;
+        }
+        #num{
+            position: relative;
+            bottom:10px;
+            right: 38px;
+        }
+        .name{
+            position: relative;
+            right: 10px;
+            top: 2px;
+        }
+        .mail{
+            position: relative;
+            right: 8px;
+            top: 2px;
+            
+        }
+        .num{
+            position: relative;
+            right: 8px;
+            top: 2px;
+        }
+        #aji{
+            opacity: 95%;
+        }
+        #ss{
+
+            display:grid;
+            grid-template-columns: repeat(3,100px);
+            justify-content: end;
+            opacity: 50%;
+            position: relative;
+            top: 55px;
+            right: 495px;
+            
+        }
+        .ww{
+
+            display: grid;
+            grid-template-columns: 200px;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            right: 1px;
+            top: 50px;
+            opacity: 50%;
+            }
+    </style>
+</head>
+<body>
+        <h2>CONTACT ME</h2>
+    <div class="main">
+        <img src="Img/Ajith.jpeg"  alt="Aj's Image" height="280px" width="239px" id="aji">
+        <div class="container">
+        <img src="./Img/person-icon.png" height="30px" width="30px" alt="Person Logo" class="name" > 
+           <p id="name" >AJITH J</p>
+        <img src="./Img/Gmail-Logo.png" height="23px" width="27px" alt="Gmail Logo" class="mail"> 
+           <p id="mail">ajithajay1846@gmail.com</p>
+        <img src="./Img/Phone-Icon.jpg" height="30px" width="30px" alt="Person Logo" class="num" >
+           <p id="num">+91 8124453373</p>   
+    </div>
+    </div> 
+    <footer>
+        <div id="ss">
+           <a href="https://www.linkedin.com/in/ajithj22/">
+            <img src="./Img/linkedin.png" alt="Aj's LinkedIn Id" height="25px" width="25px">
+            </a>
+            <a href="https://github.com/Ajith19606">
+            <img src="./Img/GitHub.png" alt="Aj's GitHub Id" height="25px" width="25px">
+            </a>
+            <a href="https://www.instagram.com/a.j.i.t.h_._/">
+            <img src="./Img/Insta.png" alt="Aj's Intsa Id" height="25px" width="25px">
+            </a>
+        </div>
+        <p class="ww">Copyrigth @2023 AJ</p>
+    </footer>
+</body>
+</html>

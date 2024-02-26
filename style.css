@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    bottom: 0;
+    background-image: url("./Bg-Img/bg1.jpeg");
+    background-size: cover;
+    display: grid;
+    height: 630px;
+    width:100%;
+    grid-template-areas:
+    'head head head'
+    'main main main'
+    'foot foot foot' ;
+    grid-template-columns:auto;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 150px 2fr;
+    grid-area: head;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cent{
+    
+    grid-area: main;
+    display: grid;
+    grid-template-rows:repeat(5,50px);
+    justify-items:center; 
+    align-items: center;
+}
+h1{
+    position: relative;
+    right: 300px;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    position: relative;
+    right: 300px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 20px;
+}
+h3{
+    position: relative;
+    right: 300px;
+    top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cent p{
+    position: relative;
+    right: 300px;
+    font-size:larger;
+    font-weight:lighter;
+    font-style: oblique;
+    top: 25px;
+}
+#mail
+{
+    position: relative;
+    bottom: 50px;
+}
+.cv{
+    position: relative;
+    right: 300px;
+    top: 30px;
+}
+footer{
+    
+    grid-area: foot;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+#ss{
+
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    justify-content: center;
+    opacity: 50%;
+    
+}
+.ww{
+    
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    right: 25px;
+    opacity: 50%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    list-style: none;
+}
+.but:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.but{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(214, 206, 206);
+    transition: transform.3s;
+}
+li{
+    transition: transform.4s;
+}
+li:hover{
+    transform: scale(1.2);
+}

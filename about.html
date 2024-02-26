@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<he>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About AJ</title>
+    <style>
+      body{
+        background-image: url(./Bg-Img/blue.png);
+        background-size:auto;
+        background-repeat: no-repeat;
+        padding: 90px;
+      }
+      a{
+    text-decoration: none;
+}
+      h1{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 40px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      #para{
+        width: 75%;
+        position: relative;
+        left: 150px;
+        top:20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:500;
+        font-style: italic;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 40px;
+        text-align:justify;
+        
+      }
+      #ss{
+
+        display:grid;
+        grid-template-columns: repeat(3,100px);
+        justify-content: center;
+        opacity: 50%;
+
+      }
+      .ww{
+
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 25px;
+        opacity: 50%;
+      }
+      footer{
+        position: relative;
+        top: 120px;
+      }
+      nav ul{
+        display: flex;
+        flex-direction: row;
+        column-gap: 100px;
+        list-style: none;
+      }
+      nav{
+       height: 10px;
+       width: 900px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       display: grid;
+       grid-template-columns: 150px 2fr;
+       grid-area: head;
+       font-size: larger;
+       font-family: Arial, Helvetica, sans-serif;
+      }
+      li{
+       transition: transform.4s;
+      }
+      li:hover{
+       transform: scale(1.2);
+      }
+      #id{
+        position: relative;
+        bottom: 50px;
+      }
+    </style>
+</head>
+<body>
+    <div id="popup-box" class="modal">
+      <div class="content">
+        <h1>ABOUT ME</h1>
+        <p id="para">Hi,I am a highly motivated and skilled Computer Science Engineering graduate looking for an entry-level position as a Software Developer.I'm primarily focused on Software Development. Strong in design and integration with intuitive problem-solving skills. Proficient in Java, C, HTML, CSS, JavaScript and MySql. Passionate about implementing and launching new projects.Ability to learn things quickly and capable of working in a team-driven environment.</p>
+      </div>
+    </div>
+    <footer>
+      <div id="ss">
+      <a href="https://www.linkedin.com/in/ajithj22/">
+          <img src="./Img/linkedin.png" alt="Aj's LinkedIn Id" height="25px" width="25px">
+          </a>
+          <a href="https://github.com/Ajith19606">
+          <img src="./Img/github.png" alt="Aj's GitHub Id" height="25px" width="25px">
+          </a>
+          <a href="https://www.instagram.com/a.j.i.t.h_._/">
+          <img src="./Img/insta.png" alt="Aj's Intsa Id" height="25px" width="25px">
+          </a>
+      </div>
+      <p class="ww">Copyrigth @2023 AJ</p>
+  </footer>
+</body>
+</html>
